@@ -1,0 +1,16 @@
+/* styles.css */
+
+/* Custom Styles (if any) */
+
+/* Example: Customizing the form input border color on focus */
+input:focus, textarea:focus {
+    border-color: #4a5568; /* Tailwind's gray-700 */
+    outline: none;
+}
+body {
+    padding-top: 6rem; /* Adjust this value based on your header height */
+}
+/* Adjust the top padding for sections to offset the fixed header */
+section[id] {
+    scroll-margin-top: 6rem; /* Same value as the body's padding-top */
+}
